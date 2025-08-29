@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instalaciones - Preparatoria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5f6fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+      font-weight: 700;
+      margin-bottom: 2rem;
+      color: #2c3e50;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: #3498db;
+      margin: 0.5rem auto 0;
+      border-radius: 2px;
+    }
+
+    .card {
+      overflow: hidden;
+      border: none;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      background-color: #fff;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-bottom: 2px solid #eee;
+      display: block;
+    }
+
+    .card-body {
+      padding: 1.5rem;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #34495e;
+      margin-bottom: 0.8rem;
+    }
+
+    .card-text {
+      text-align: justify;
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 1.5rem 0;
+      margin-top: 3rem;
+    }
+
+    .container h2 {
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mi Preparatoria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="escuela.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="maestros.html">Maestros</a></li>
+          <li class="nav-item"><a class="nav-link active" href="salones.html">Salones</a></li>
+          <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Instalaciones -->
+  <section class="py-5 mt-5">
+    <div class="container">
+
+      <!-- Salones -->
+      <h2>Salones</h2>
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="salon1.jpg" alt="Salón 1">
+            <div class="card-body">
+              <h5 class="card-title">Salón 1</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="salon2.jpg" alt="Salón 2">
+            <div class="card-body">
+              <h5 class="card-title">Salón 2</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="computo.jpg" alt="Sala de Cómputo">
+            <div class="card-body">
+              <h5 class="card-title">Sala de Cómputo</h5>
+              <p class="card-text">La sala de cómputo es un espacio equipado con computadoras, proyector y acceso a internet, diseñado para apoyar el aprendizaje de los estudiantes en el uso de herramientas digitales. En este lugar se imparten clases prácticas, se realizan investigaciones y se desarrollan proyectos académicos que fortalecen las competencias tecnológicas. Además, fomenta el trabajo en equipo y el aprovechamiento de la tecnología como recurso para el estudio y la innovación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oficinas -->
+      <h2>Oficinas</h2>
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="direccion.jpg" alt="Dirección">
+            <div class="card-body">
+              <h5 class="card-title">Dirección</h5>
+              <p class="card-text">Coordina y supervisa todas las actividades de la escuela, asegurando el buen funcionamiento de la institución y la toma de decisiones importantes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="subdireccion.jpg" alt="Subdirección">
+            <div class="card-body">
+              <h5 class="card-title">Subdirección</h5>
+              <p class="card-text">Apoya a la dirección en la organización escolar y da seguimiento a las tareas administrativas y académicas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="orientacion.jpg" alt="Orientación y Pedagogía">
+            <div class="card-body">
+              <h5 class="card-title">Orientación y Pedagogía</h5>
+              <p class="card-text">Brinda apoyo emocional, académico y personal a los estudiantes, ayudándolos a enfrentar dificultades y favoreciendo su desarrollo integral. Pedagogía se encarga de la planeación y administración de actividades académicas complementarias como prácticas, servicio social y proyectos escolares, fortaleciendo la formación profesional de los alumnos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Canchas -->
+      <h2>Canchas</h2>
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="basquet.jpg" alt="Cancha de Basquetbol">
+            <div class="card-body">
+              <h5 class="card-title">Basquetbol</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="soquer.jpg" alt="Cancha de Futbol">
+            <div class="card-body">
+              <h5 class="card-title">Futbol</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mi Preparatoria | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
